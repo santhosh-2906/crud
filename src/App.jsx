@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const API_URL = "http://127.0.0.1:5001";
+const API_URL = "https://backend-1-0b18.onrender.com";
 
 const App = () => {
   const [todos, setTodos] = useState([]);
